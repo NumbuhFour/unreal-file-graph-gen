@@ -1,0 +1,17 @@
+{
+  "name": "obisdiancanvasgen",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "export.econ": "node index.js -n TheEngineer -d C:\\P4W\\Four_Main\\TheEngineer -m CustomAssetEditor/* -m EconModel/* -o \"D:\\obsidian\\personal\\Personal Sync Vault - noenc\\Projects\\Misc\\Econ Model\\Econ Model Classes Auto.canvas\""
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@trbn/jsoncanvas": "^1.0.6",
+    "yargs": "^17.7.2"
+  }
+}
