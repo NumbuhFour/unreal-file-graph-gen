@@ -3,6 +3,7 @@ A simple script to produce JSON Canvases for Obsidian based on an unreal project
 Re-running the script on a pre-existing canvas will do its best to append new nodes below modules, while also updating links without changing other text. So you can move nodes around and update what they're called and the script should maintain all that.
 
 Usage:
+```
   -d, --directory   Root project directory to scan.                     [string] [default:Current Directory]
 
   -n, --name        Project name                                        [string]
@@ -20,7 +21,7 @@ Usage:
                                                                         [string] [default: "rider"]
       --version     Show version number                                 [boolean]
       --help        Show help                                           [boolean]
-
+```
 
 Example:
 `node index.js -n MyProject -d "C:\Unreal\MyProject" -m Root\* -m SomePlugin/SomePluginEditor -m SomePlugin/SomePluginRuntime -o "C:\obsidianvault\My Project Classes.canvas"`
